@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_messages_outline"
+            android:title="@string/messages" />
+
+        <item
+            android:id="@+id/nav_archived"
+            android:icon="@drawable/ic_archive_vector"
+            android:title="@string/archived_conversations" />
+
+        <item
+            android:id="@+id/nav_recycle_bin"
+             android:title="@string/recycle_bin" />
+
+        <item
+            android:id="@+id/nav_blocked"
+            android:icon="@drawable/ic_block_vector"
+            android:title="@string/blocked_numbers" />
+    </group>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                 android:title="@string/settings" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_vector"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>

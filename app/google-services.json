@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1053996016337",
+    "project_id": "appmessages-6a409",
+    "storage_bucket": "appmessages-6a409.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053996016337:android:f44d24eaaaff38bb479bf0",
+        "android_client_info": {
+          "package_name": "com.appCes.smsmessenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHzPohtrDdwI4JyLDP-ka2rQNGN780KSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

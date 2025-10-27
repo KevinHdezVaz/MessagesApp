@@ -36,6 +36,10 @@ app-build-kotlinJVMTarget = "17"
 #Helpers
 ez-vcard = "0.12.1"
 documentfile = "1.1.0"
+datastoreCore = "1.1.7"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
 [libraries]
 #AndroidX
 androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx-constraintlayout" }
@@ -66,6 +70,11 @@ androidx-lifecycle-viewModel = { module = "androidx.lifecycle:lifecycle-viewmode
 swipe-action = { module = "com.github.Goodwy:SwipeActionView", version.ref = "swipeToActionLayout" }
 google-services = { module = "com.google.android.gms:play-services-location", version.ref = "googleServices" }
 androidx-documentfile = { group = "androidx.documentfile", name = "documentfile", version.ref = "documentfile" }
+androidx-datastore-core = { group = "androidx.datastore", name = "datastore-core", version.ref = "datastoreCore" }
+
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 [bundles]
 room = [
     "androidx-room-ktx",

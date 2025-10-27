@@ -18,7 +18,38 @@
     <string name="pin_conversation">Pin to the top</string>
     <string name="unpin_conversation">Unpin</string>
     <string name="forward_message">Forward</string>
-    <string name="compress_error">Unable to compress image to selected size</string>
+
+        <string name="welcome_to_messages">Welcome to Messages</string>
+        <string name="sign_in_to_continue">Sign in to unlock premium features</string>
+        <string name="sign_in_with_google">Continue with Google</string>
+        <string name="continue_without_account">Continue without account</string>
+        <string name="or">OR</string>
+
+
+         <!-- Login Dialog -->
+        <string name="login_required">Login Required</string>
+        <string name="login_required_message">Sign in to unlock premium features and sync your settings across devices</string>
+        <string name="sign_in">Sign In</string>
+        <string name="skip_for_now">Skip for now</string>
+        <string name="limited_features_without_login">You can use the app but some features will be limited</string>
+        <string name="premium_account">Premium Account</string>
+        <string name="tap_to_sign_in">Tap to sign in</string>
+         <!-- Premium Features -->
+        <string name="premium_features_title">Premium Features</string>
+        <string name="feature_cloud_sync">Sync settings across devices</string>
+        <string name="feature_remote_actions">Send SMS remotely</string>
+        <string name="feature_backup_settings">Automatic backup</string>
+
+        <!-- Login Messages -->
+        <string name="signing_in">Signing in…</string>
+        <string name="sign_in_failed">Sign in failed. Please try again.</string>
+        <string name="sign_in_cancelled">Sign in cancelled</string>
+        <string name="network_error">Network error. Check your connection.</string>
+
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">Close navigation drawer</string>
+
+     <string name="compress_error">Unable to compress image to selected size</string>
     <!-- Attachments -->
     <string name="duplicate_item_warning">Duplicate item was not included</string>
     <!-- vCard -->

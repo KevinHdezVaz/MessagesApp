@@ -165,8 +165,13 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.bundles.room)
     implementation(libs.androidx.documentfile)
+    implementation(libs.androidx.datastore.core)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.activity)
     ksp(libs.androidx.room.compiler)
     detektPlugins(libs.compose.detekt)
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
 
     //Goodwy
     implementation(libs.goodwy.commons)
