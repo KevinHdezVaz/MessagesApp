@@ -16,7 +16,9 @@
 
         <item
             android:id="@+id/nav_recycle_bin"
-             android:title="@string/recycle_bin" />
+            android:icon="@drawable/ic_google"
+
+            android:title="Iniciar sesion con Google" />
 
         <item
             android:id="@+id/nav_blocked"

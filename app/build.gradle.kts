@@ -9,6 +9,8 @@ plugins {
     alias(libs.plugins.kotlinSerialization)
     alias(libs.plugins.ksp)
     alias(libs.plugins.detekt)
+    id("com.google.gms.google-services")  // ⬅️ AGREGAR ESTA LÍNEA
+
 }
 
 base {
@@ -169,10 +171,19 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
+    implementation(libs.androidx.work.runtime.ktx)
     ksp(libs.androidx.room.compiler)
     detektPlugins(libs.compose.detekt)
     implementation("androidx.datastore:datastore-preferences:1.0.0")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+    implementation("com.google.android.gms:play-services-auth:21.0.0")
 
+    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+    implementation("com.google.firebase:firebase-messaging-ktx")
+    implementation("com.google.firebase:firebase-analytics-ktx")
     //Goodwy
     implementation(libs.goodwy.commons)
     implementation(libs.behavio.rule)

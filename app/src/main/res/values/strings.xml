@@ -18,17 +18,20 @@
     <string name="pin_conversation">Pin to the top</string>
     <string name="unpin_conversation">Unpin</string>
     <string name="forward_message">Forward</string>
-
+    <string name="default_notification_channel_id">fcm_default_channel</string>
         <string name="welcome_to_messages">Welcome to Messages</string>
         <string name="sign_in_to_continue">Sign in to unlock premium features</string>
         <string name="sign_in_with_google">Continue with Google</string>
         <string name="continue_without_account">Continue without account</string>
         <string name="or">OR</string>
 
+    <string name="default_web_client_id">
+    1053996016337-7amt06i1rheep5q43kprnv1loj6l7j2l.apps.googleusercontent.com
+</string>
 
          <!-- Login Dialog -->
         <string name="login_required">Login Required</string>
-        <string name="login_required_message">Sign in to unlock premium features and sync your settings across devices</string>
+        <string name="login_required_message">Sign in to sync your settings across devices</string>
         <string name="sign_in">Sign In</string>
         <string name="skip_for_now">Skip for now</string>
         <string name="limited_features_without_login">You can use the app but some features will be limited</string>
